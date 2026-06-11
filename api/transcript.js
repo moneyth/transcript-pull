@@ -26,7 +26,7 @@ export default async function handler(req) {
       `https://api.supadata.ai/v1/youtube/transcript?videoId=${videoId}&text=true`,
       {
         headers: {
-          'x-api-key': process.env.SUPADATA_API_KEY,
+          'x-api-key': 'sd_4c336925393560806cc043f2afe4a8f5',
         },
       }
     );
