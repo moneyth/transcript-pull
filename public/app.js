@@ -1,5 +1,5 @@
 // Replace with your Vercel URL after deploying
-const API_BASE = "";
+const API_BASE = "https://transcript-yt-ten.vercel.app";
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () =>
